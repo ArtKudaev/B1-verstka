@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #838383;
+}
+
+body {
+    margin: auto;
+    width: 1440px;
+    height: 3887px;
+    background: #FDFCFC;
+    border-radius: 10px;
+    font-family: 'Inter', sans-serif;
+}
+
+.header {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 48px;
+    margin-left: 409px;
+    background: #FDFCFC;
+}
+
+.menu {
+    display: inline-flex;
+    background: #FDFCFC;
+}
+
+ul.navi li {
+    display: inline-flex;
+    justify-content: space-between;
+    list-style-type: none;
+    
+}
+
+a {
+    text-decoration: none;
+}
