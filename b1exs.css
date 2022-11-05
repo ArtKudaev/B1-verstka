@@ -15,25 +15,28 @@ body {
 }
 
 .header {
+    display: inline-block;
     font-size: 20px;
     font-weight: 700;
     margin-top: 48px;
-    margin-left: 409px;
+    margin-left: 188px;
     background: #FDFCFC;
 }
 
 .menu {
     display: inline-flex;
-    background: #FDFCFC;
+    margin-left: 502px;
 }
 
 ul.navi li {
     display: inline-flex;
-    justify-content: space-between;
-    list-style-type: none;
     
+    list-style-type: none;
+    background: #FDFCFC;
 }
 
 a {
     text-decoration: none;
+    background: #FDFCFC;
+    margin-right: 44px;
 }
