@@ -99,3 +99,23 @@ body {
 .main-info-pic {
      margin-left: 75px;
 }
+
+.partners-info {
+    display: block;
+    font-size: 16px;
+    font-weight: 300;
+    color: #667085;
+    width: 227px;
+    height: 16px;
+    margin: 157px auto 16px;
+}
+
+.partners {
+    width: 915px;
+    height: 86px;
+    margin: auto;
+    display: flex;
+    gap: 115px;
+    align-items: center;
+    justify-content: center;
+}
