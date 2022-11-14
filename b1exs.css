@@ -97,7 +97,7 @@ body {
 }
 
 .main-info-pic {
-     margin-left: 75px;
+    margin-left: 75px;
 }
 
 .partners-info {
@@ -118,4 +118,41 @@ body {
     gap: 115px;
     align-items: center;
     justify-content: center;
+}
+
+.b-d-system {
+    width:1065px;
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    margin: 136px auto 0;
+}
+
+.b-d-system-content {
+
+}
+
+.b-d-system-pic {
+    margin-right: 179.31px;
+}
+
+.b-d-system-text {
+    font-size: 48px;
+    font-weight: 700;
+    width: 435.69px;
+    height: 102.35px;
+    line-height: 100%;
+    margin-top: 97px;
+    margin-bottom: 25.59px;
+}
+
+.b-d-system-description {
+    font-size: 16px;
+    width: 392.22px;
+    height: 83.16px;
+    margin-bottom: 44px;
+}
+
+.arrow-link-button {
+    border: 0;
 }
