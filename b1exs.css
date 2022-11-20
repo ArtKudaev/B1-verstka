@@ -189,3 +189,73 @@ body {
 .c-p-development-pic {
     margin-left: 179.31px;
 }
+
+.testimonials {
+    width:1065px;
+    height: 515px;
+    margin: auto;
+}
+
+.testimonials-title {
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    color: #272D38;
+    line-height: 27.5px;
+    width: 122px;
+    height: 24px;
+    margin: 0 auto 16px;
+}
+
+.testimonials-description {
+    display: block;
+    font-size: 48px;
+    font-weight: 700;
+    width: 435.69px;
+    height: 102.35px;
+    text-align: center;
+    line-height: 100%;
+    margin: 0 auto 38.65px;
+}
+
+.testimonials-blocks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.testimonials-block {
+    width: 345px;
+    height: 334px;
+    background: #F6F6F6;
+    border-radius: 20px;
+}
+
+.testi-block-img {
+    display: block;
+    width: 129px;
+    height: 130px;
+    margin: 32px auto 8px;
+}
+
+.testi-block-username {
+    display: block;
+    width: 138px;
+    height: 28px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0  auto 27px;
+    text-align: center;
+}
+
+.testi-block-text {
+    display: block;
+    font-weight: 300;
+    font-size: 14px;
+    text-align: center;
+    line-height: 130%;
+    width: 281px;
+    height: 77px;
+    margin: 0 auto 32px;
+}
