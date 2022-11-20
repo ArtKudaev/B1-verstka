@@ -22,7 +22,7 @@ body {
     display: inline-block;
     font-size: 20px;
     font-weight: 700;
-    color: black;
+    color: #272D38;
     text-decoration: none;
 }
 
@@ -75,6 +75,7 @@ body {
     height: 192px;
     line-height: 100%;
     margin-bottom: 24px;
+    color: #272D38;
 }
 
 .main-info-description {
@@ -82,6 +83,7 @@ body {
     width: 525px;
     height: 56px;
     margin-bottom: 39px;
+    color: #272D38;
 }
 
 .contact-button {
@@ -144,6 +146,7 @@ body {
     line-height: 100%;
     margin-top: 97px;
     margin-bottom: 25.59px;
+    color: #272D38;
 }
 
 .b-d-system-description {
@@ -151,6 +154,7 @@ body {
     width: 392.22px;
     height: 83.16px;
     margin-bottom: 44px;
+    color: #272D38;
 }
 
 .arrow-link-button {
@@ -177,6 +181,7 @@ body {
     line-height: 100%;
     margin-top: 97px;
     margin-bottom: 25.59px;
+    color: #272D38;
 }
 
 .c-p-development-description {
@@ -184,6 +189,7 @@ body {
     width: 392.22px;
     height: 83.16px;
     margin-bottom: 44px;
+    color: #272D38;
 }
 
 .c-p-development-pic {
@@ -216,6 +222,7 @@ body {
     text-align: center;
     line-height: 100%;
     margin: 0 auto 38.65px;
+    color: #272D38;
 }
 
 .testimonials-blocks {
@@ -247,6 +254,7 @@ body {
     line-height: 28px;
     margin: 0  auto 27px;
     text-align: center;
+    color: #272D38;
 }
 
 .testi-block-text {
@@ -258,4 +266,42 @@ body {
     width: 281px;
     height: 77px;
     margin: 0 auto 32px;
+    color: #272D38;
+}
+
+.contacts-info {
+    width:1065px;
+    height: 450.43px;
+    display: flex;
+    flex-direction: row;
+    margin: 136px auto 138.57px;
+    background: #F6F6F6;
+    border-radius: 20px;
+}
+
+.contacts-info-content {
+
+}
+
+.contacts-info-text {
+    font-size: 48px;
+    font-weight: 700;
+    width: 361px;
+    height: 102.1px;
+    line-height: 100%;
+    margin-top: 100.1px;
+    margin-bottom: 16.02px;
+    color: #272D38;
+}
+
+.contacts-info-description {
+    font-size: 16px;
+    width: 360px;
+    height: 52.05px;
+    margin-bottom: 32.03px;
+    color: #272D38;
+}
+
+.contacts-info-pic {
+    margin-right: 90px;
 }
