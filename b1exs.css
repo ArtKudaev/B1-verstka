@@ -305,3 +305,119 @@ body {
 .contacts-info-pic {
     margin-right: 90px;
 }
+
+.footer {
+    width: 1440px;
+    height: 443px;
+    background: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-section {
+    display: flex;
+}
+
+.digital-agency-links {
+    width: 189.29px;
+    height: 114px;
+    margin: 105px 178.39px 224px 183.32px;
+}
+
+.d-g-title {
+    display: block;
+    width: 139.74px;
+    height: 26px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 40px;
+    color: #272D38;
+    text-decoration: none;
+}
+
+.d-g-text {
+    display: block;
+    width: 189.29px;
+    height: 48px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    color: #272D38;
+    text-decoration: none;
+}
+
+.resources-links {
+    width: 141px;
+    height: 194px;
+    margin: 105px 178px 110px 0;
+}
+
+.resources-title {
+    display: block;
+    width: 102.07px;
+    height: 26px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 8px;
+    color: #272D38;
+    text-decoration: none;
+}
+
+.resources-text {
+    display: block;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 100%;
+    color: #272D38;
+    text-decoration: none;
+    margin-top: 24px;
+}
+
+.company-links {
+    width: 85.23px;
+    height: 194px;
+    margin: 105px 177.77px 110px 0;
+}
+
+.company-links-title {
+    display: block;
+    width: 85.23px;
+    height: 26px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 8px;
+    color: #272D38;
+    text-decoration: none;
+}
+
+.social-media-links {
+    width: 123.19px;
+    height: 194px;
+    margin: 105px 183.81px 144px 0;
+}
+
+.social-media-title {
+    display: block;
+    width: 123.19px;
+    height: 26px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 8px;
+    color: #272D38;
+    text-decoration: none;
+}
+
+.the-end {
+    display: block;
+    width: 319px;
+    height: 16px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 100%;
+    color: #272D38;
+    margin: 0 auto 18px;
+}
