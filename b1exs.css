@@ -4,7 +4,6 @@
 
 body {
     margin: 0;
-    width: 1440px;
     background: #FDFCFC;
     border-radius: 10px;
     font-family: 'Inter', sans-serif;
@@ -57,15 +56,14 @@ body {
 }
 
 .main-info {
-    width:1065px;
-    height: 450px;
     display: flex;
     flex-direction: row;
     margin: 97px auto 0;
 }
 
-.main-info-content {
-
+.container {
+    width:1065px;
+    height: 450px;
 }
 
 .main-text {
@@ -120,25 +118,25 @@ body {
     gap: 115px;
     align-items: center;
     justify-content: center;
+    background-color: #F6F6F6;
+    border-radius: 8px;
 }
 
-.b-d-system {
-    width:1065px;
-    height: 450px;
+.branding-design-system {
     display: flex;
     flex-direction: row;
     margin: 136px auto 0;
 }
 
-.b-d-system-content {
+.branding-design-system-content {
 
 }
 
-.b-d-system-pic {
+.branding-design-system-pic {
     margin-right: 179.31px;
 }
 
-.b-d-system-text {
+.branding-design-system-text {
     font-size: 48px;
     font-weight: 700;
     width: 435.69px;
@@ -149,7 +147,7 @@ body {
     color: #272D38;
 }
 
-.b-d-system-description {
+.branding-design-system-description {
     font-size: 16px;
     width: 392.22px;
     height: 83.16px;
@@ -159,21 +157,20 @@ body {
 
 .arrow-link-button {
     border: 0;
+    background: #FDFCFC;
 }
 
-.c-p-development {
-    width:1065px;
-    height: 450px;
+.custome-plugin-development {
     display: flex;
     flex-direction: row;
     margin: 136px auto 0;
 }
 
-.c-p-development-content {
+.custome-plugin-development-content {
 
 }
 
-.c-p-development-text {
+.custome-plugin-development-text {
     font-size: 48px;
     font-weight: 700;
     width: 435.69px;
@@ -184,7 +181,7 @@ body {
     color: #272D38;
 }
 
-.c-p-development-description {
+.custome-plugin-development-description {
     font-size: 16px;
     width: 392.22px;
     height: 83.16px;
@@ -192,7 +189,7 @@ body {
     color: #272D38;
 }
 
-.c-p-development-pic {
+.custome-plugin-development-pic {
     margin-left: 179.31px;
 }
 
@@ -270,8 +267,6 @@ body {
 }
 
 .contacts-info {
-    width:1065px;
-    height: 450.43px;
     display: flex;
     flex-direction: row;
     margin: 136px auto 138.57px;
@@ -307,8 +302,6 @@ body {
 }
 
 .footer {
-    width: 1440px;
-    height: 443px;
     background: #F6F6F6;
     display: flex;
     flex-direction: column;
@@ -316,6 +309,7 @@ body {
 
 .footer-section {
     display: flex;
+    margin: 0 auto;
 }
 
 .digital-agency-links {
@@ -420,4 +414,95 @@ body {
     line-height: 100%;
     color: #272D38;
     margin: 0 auto 18px;
+}
+
+@media screen and (max-width: 428px) {  
+    .header {
+        width: 380px;
+        height: 24px;
+        margin: 48px auto 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo {
+        display: none;
+    }
+    .mobile-logo {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        color: #272D38;
+        text-decoration: none;
+    }
+    .menu {
+        display: none;
+    }
+    .menu-button {
+        display: flex;
+        flex-direction: column;
+        gap: 6.22px;
+        border: 0;
+        background: #FFFFFF;
+    }
+    .menu-strip {
+        display: block;
+        width:20px;
+        height:1.05px;
+        background:#272D38;
+        border: none;
+    }
+
+    .container {
+        width: 380px;
+        
+    }
+    .main-info {
+        display: flex;
+        flex-direction: column;
+        margin: 95px auto 0;
+    }
+    .main-info-content {
+        text-align: center;
+    }
+    .contact-button {
+        margin: 34px auto 0;
+    }
+    .main-text {
+        width: 378px;
+        height: 120px;
+        line-height: 100%;    
+        font-size: 40px;
+        margin: 0 auto;
+    }
+    .main-info-description{
+        width: 378px;
+        height: 56px;
+        font-size: 16px;
+        margin: 24px auto 0;
+    }
+    .main-info-pic {
+        width: 358px;
+        height: 358px;
+        margin: 48px auto 0;
+    }
+
+    .partners-info {
+        margin: 120px auto 0;
+        width: 199px;
+        height: 14px;
+        font-size: 14px;
+        line-height: 100%;
+    }
+    .partners {
+        width: 348px;
+        height: 38px;
+        margin: 16px auto 0;
+        gap: 29.8px;
+    }
+    .branding-design-system {
+        font-size: 32px;
+        display: flex;
+        flex-direction: column;
+    }
 }
