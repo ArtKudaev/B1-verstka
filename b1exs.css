@@ -126,13 +126,17 @@ body {
 .partners-logos {
     width: 915px;
     height: 86px;
-    margin: auto;
-    display: flex;
-    gap: 115px;
-    align-items: center;
-    justify-content: center;
     background-color: #F6F6F6;
     border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logos-image {
+    display: block;
+    width: 867px;
+    height: 38px;
 }
 
 .branding-design-system {
@@ -508,13 +512,13 @@ body {
         font-size: 14px;
     }
     .partners-logos {
+        width: 380px;
+        height: 86px;
+    }
+    .logos-image {
+        display: block;
         width: 348px;
         height: 38px;
-        margin: auto;
-        display: flex;
-        gap: 29.7px;
-        align-items: center;
-        justify-content: center;
     }
 
     .branding-design-system {
